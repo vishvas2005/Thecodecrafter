@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: enterwind1;
+    src: url(../d3tHnaQIAeqiE5hGcRw4mmgWYU.ttf);
+}
+@font-face {
+    font-family: enterwind2;
+    src: url(../K92yWVcoSj4dkAF1w1yDCv6MwEs.ttf);
+}
+@font-face {
+    font-family: enterwind3;
+    src: url(../NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mj0QiaWy5S.ttf);
+}
+@font-face {
+    font-family: enterwind4;
+    src: url(../vQyevYAyHtARFwPqUzQGpnDs.ttf);
+}
+.img{
+    background-image: url("vishvas.jpg");
+    background-size: cover;
+    filter: brightness(0.8);
+    filter: grayscale(-10);
+}
+.virtual{
+    opacity: 0;
+}
+@keyframes anime {
+    from{}
+}
